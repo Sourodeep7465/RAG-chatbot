@@ -1,0 +1,12 @@
+Problem Statement
+
+Investors in Indian mutual funds frequently need quick, accurate answers to factual questions about their fund schemes: What is the expense ratio? What is the exit load? What is the minimum SIP amount? What is the lock-in period for ELSS? How do I download my capital gains statement?
+
+Today, investors must navigate multiple websites (AMC sites, SEBI, AMFI) to find this information. The information is scattered across PDFs, web pages, and factsheets. There is no single, reliable, facts-only source that answers these questions with proper citations.
+
+This project builds a Retrieval-Augmented Generation (RAG) chatbot that answers factual questions about selected HDFC Mutual Fund schemes using only official sources (hdfcfund.com, sebi.gov.in, amfi.com, amfiindia.com). It refuses to give investment advice and always cites its source.
+
+Scope:
+- AMC: HDFC Mutual Fund
+- Schemes: HDFC Large Cap, HDFC Flexi Cap (formerly HDFC Equity Fund), HDFC ELSS Tax Saver, HDFC Small Cap, HDFC Balanced Advantage
+- All Direct-Growth plans only
