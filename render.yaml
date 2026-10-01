@@ -4,7 +4,7 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python scripts/startup.py && streamlit run app/main.py --server.port=$PORT --server.address=0.0.0.0 --server.headless true
+    startCommand: python scripts/startup.py
     healthCheckPath: /
     envVars:
       - key: GROQ_API_KEY
