@@ -2,6 +2,14 @@
 fileWatcherType = "none"
 headless = true
 port = 8501
+address = "0.0.0.0"
 
 [browser]
 gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#00D09C"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0FFF9"
+textColor = "#333333"
