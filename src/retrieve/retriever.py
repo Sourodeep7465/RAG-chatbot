@@ -4,7 +4,6 @@ from typing import Optional
 
 import chromadb
 from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
 
 from src.config import CHROMA_DIR, EMBED_MODEL, CHROMA_COLLECTION, TOP_K, SIMILARITY_THRESHOLD
 
@@ -86,12 +85,20 @@ def rewrite_query(query: str, history: list[dict]) -> str:
 
 class Retriever:
     def __init__(self):
-        self.model = SentenceTransformer(EMBED_MODEL)
+        self._model = None
         self.client = chromadb.PersistentClient(
             path=str(CHROMA_DIR),
             settings=Settings(anonymized_telemetry=False),
         )
         self.collection = self.client.get_collection(CHROMA_COLLECTION)
+
+    @property
+    def model(self):
+        """Lazy-load embedding model only when needed."""
+        if self._model is None:
+            from sentence_transformers import SentenceTransformer
+            self._model = SentenceTransformer(EMBED_MODEL)
+        return self._model
 
     def retrieve(self, query: str, scheme: Optional[str] = None) -> list[dict]:
         """Retrieve top-k chunks for a query, optionally filtered by scheme."""
