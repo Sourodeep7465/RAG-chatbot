@@ -20,16 +20,46 @@ def strip_urls(text: str) -> str:
     return re.sub(r'https?://\S+', '', text).strip()
 
 
+def clean_context(text: str) -> str:
+    """Clean context text to avoid model issues."""
+    # Remove problematic characters
+    text = text.replace("\ufffd", "'")
+    text = text.replace("\u2018", "'").replace("\u2019", "'")
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    text = text.replace("\u2013", "-").replace("\u2014", "-")
+    text = text.replace("\u2026", "...")
+    text = text.replace("\u00a0", " ")
+    # Remove control characters except newlines and tabs
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
+    # Collapse whitespace
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+
 def generate_answer(query: str, chunks: list[dict]) -> str:
     """Generate an answer using Groq API."""
     if not GROQ_API_KEY:
         return "Error: GROQ_API_KEY not found in .env file."
 
-    # Build context
+    # Filter out chunks that are too short (likely URL fragments)
+    valid_chunks = [c for c in chunks if len(c['text']) > 100]
+
+    if not valid_chunks:
+        valid_chunks = chunks  # fallback to all chunks
+
+    # Build context - use top 4 chunks, no truncation
     context_parts = []
-    for i, chunk in enumerate(chunks, 1):
+    for i, chunk in enumerate(valid_chunks[:4], 1):
         context_parts.append(f"[Source {i}]\n{chunk['text']}")
     context = "\n\n".join(context_parts)
+
+    # Clean context
+    context = clean_context(context)
+
+    # Truncate total context to avoid token limits
+    if len(context) > 4000:
+        context = context[:4000]
 
     # Build prompt
     user_prompt = f"""Context:
@@ -51,6 +81,16 @@ Answer (max 3 sentences, facts only):"""
             temperature=0.1,
         )
         answer = response.choices[0].message.content.strip()
+        if not answer or "could not find" in answer.lower():
+            # Fallback: try with simpler prompt
+            simple_prompt = f"Based on the following information, answer the question: {query}\n\n{context}\n\nAnswer:"
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": simple_prompt}],
+                max_tokens=200,
+                temperature=0.1,
+            )
+            answer = response.choices[0].message.content.strip()
         return strip_urls(answer)
     except Exception as e:
         return f"Error generating answer: {str(e)[:200]}"

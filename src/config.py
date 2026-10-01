@@ -29,6 +29,7 @@ def require_groq() -> tuple[str, str]:
     return GROQ_API_KEY, GROQ_MODEL
 
 
+
 # Paths
 DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"

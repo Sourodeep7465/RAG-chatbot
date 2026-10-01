@@ -806,3 +806,631 @@ New Fund Offer
 View All
 --------------------------------------------------------------------------------
 
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0034
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+HDFC Small Cap Fund Direct Growth - NAV, Portfolio and Performance | HDFC Mutual Funds
+
+HDFC Small Cap Fund
+Equity
+DIRECT
+REGULAR
+
+An open ended equity scheme predominantly investing in small cap stocks.
+
+The Scheme shall follow a predominantly small cap strategy with a minimum exposure of 65% to small cap stocks. The Scheme may also seek participation in other equity and equity related securities to achieve optimal portfolio construction.
+
+The aim of equity strategy will be to predominantly build a portfolio of small-cap companies which have:
+- reasonable growth prospects
+- sound financial strength
+- sustainable business models
+- acceptable valuation that offers potential for capital apprec
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0035
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+rength
+- sustainable business models
+- acceptable valuation that offers potential for capital appreciation.
+
+Returns since inception: 19.61%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+
+Total Expense Ratio (TER): 0.67%
+The Total Expense Ratio (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+
+Lock in: NA
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0036
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+he fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units. For example, Equity Linked Savings Schemes (ELSS) Funds have a 3-year lock-in.
+
+AUM (31/12/2025): ₹37,753.13 Cr.
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+
+Benchmark: BSE 250 SmallCap Index (Total Returns Index)
+A benchmark is a standard market index used to compare a Fund's performance.
+
+Fund Managers:
+Mr. Chirag Setalvad - Fund Manager - Head of Equities
+OVERSEAS: Mr.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0037
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+'s performance.
+
+Fund Managers:
+Mr. Chirag Setalvad - Fund Manager - Head of Equities
+OVERSEAS: Mr. Dhruv Muchhal - Equity Analyst and Fund Manager for Overseas Investments
+
+Top 10 Holdings As on 30 Nov 2025
+
+Exit Load:
+In respect of each purchase / switch-in of Units, an Exit Load of 1.00% is payable if Units are redeemed / switched out within 1 year from the date of allotment.
+No Exit Load is payable if Units are redeemed / switched out after 1 year from the date of allotment.
+
+Product Labelling: Benchmark Riskometer
+This product is suitable for investors who are seeking:
+- to generate long-term capital appreciation/income
+- investments predominantly in Small-Cap companies
+
+FAQs:
+Can I inv
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0038
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+term capital appreciation/income
+- investments predominantly in Small-Cap companies
+
+FAQs:
+Can I invest in SIP and Lump Sum of HDFC Small Cap Fund?
+Yes, SIP as well as Lump Sum investments are permitted with the minimum application amount being ₹100. Any additional purchase must have a minimum amount of ₹100. The SIP and Lumpsum are available in direct and regular plan with both Growth and IDCW option.
+
+Source: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+Retrieved from Wayback Machine: https://web.archive.org/web/20260107201806/https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_small_cap_fund_direct_0039
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct
+scheme: HDFC Small Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+al-funds/hdfc-small-cap-fund/direct
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0040
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+HDFC Large Cap Fund Direct Growth - NAV, Portfolio and Performance | HDFC Mutual Funds
+
+HDFC Large Cap Fund
+Equity
+DIRECT
+REGULAR
+
+An open ended equity scheme predominantly investing in large cap stocks.
+
+This is a simple and performing scheme which is eligible for distribution by new cadre of distributors.
+
+The Scheme aims to provide long-term capital appreciation. It will maintain a minimum exposure of 80% to Large Cap stocks, as defined by SEBI, which currently are the 100 largest companies in India in terms of full market capitalization.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0041
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+BI, which currently are the 100 largest companies in India in terms of full market capitalization.
+
+Generally, large cap companies are well established businesses that are in operation for a longer period of time and are well positioned to absorb business pressures across various market cycles. Due to their size, they also benefit from economies of scale.
+
+The Scheme will remain diversified across key sectors and economic variables.
+
+Returns since inception: 14.27%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0042
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+
+Total Expense Ratio (TER): 0.95%
+The Total Expense Ratio (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+
+Lock in: NA
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units.
+
+AUM (31/12/2025): ₹40,604.33 Cr.
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0043
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+UM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+
+Benchmark: NIFTY 100 (Total Return Index)
+A benchmark is a standard market index used to compare a Fund's performance.
+
+Fund Managers:
+Mr. Rahul Baijal - Senior Member Investment Team (Equity)
+OVERSEAS: Mr. Dhruv Muchhal - Equity Analyst and Fund Manager for Overseas Investments
+
+Top 10 Holdings As on 30 Nov 2025
+
+Exit Load:
+In respect of each purchase/switch-in of Units, an Exit Load of 1.00% is payable if Units are redeemed/switched-out within 1 year from the date of allotment.
+No Exit Load is payable if Units are redeemed/switched-out after 1 year from the date of allotment.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0044
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+No Exit Load is payable if Units are redeemed/switched-out after 1 year from the date of allotment.
+No Entry/Exit Load shall be levied on bonus units and units allotted on dividend reinvestment.
+
+Product Labelling: Benchmark Riskometer
+This product is suitable for investors who are seeking:
+- to generate long-term capital appreciation/income
+- investment predominantly in Large-Cap companies
+
+FAQs:
+What are the top holdings in the HDFC Top 100 Fund's portfolio? Click here
+Who should consider investing in the HDFC Top 100 Fund? This product is suitable for investors who are seeking to generate long-term capital appreciation / income, investment predominantly in Large-cap companies.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_large_cap_fund_direct_0045
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+scheme: HDFC Large Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+generate long-term capital appreciation / income, investment predominantly in Large-cap companies.
+How to Invest in HDFC Top 100 Fund? Investors can apply for their transactions requests either offline or electronically using the relevant application / transaction request forms available on our website or at any of our Officials Points of Acceptance.
+
+Source: https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+Retrieved from Wayback Machine: https://web.archive.org/web/20260104061140/https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0046
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+HDFC Flexi Cap Fund Direct Growth - NAV, Portfolio and Performance | HDFC Mutual Funds
+
+HDFC Flexi Cap Fund
+Equity
+DIRECT
+REGULAR
+
+An open ended dynamic equity scheme investing across large cap, mid cap & small cap stocks.
+
+This is a simple and performing scheme which is eligible for distribution by new cadre of distributors.
+
+Investment Objective: To generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments. There is no assurance that the investment objective of the Scheme will be realized.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0047
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+d instruments. There is no assurance that the investment objective of the Scheme will be realized.
+
+Returns since inception: 17.15%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+
+Total Expense Ratio (TER): 0.67%
+The Total Expense Ratio (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+
+Lock in: NA
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units.
+
+AUM (31/10/2025): ₹91,041.00 Cr.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0048
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+estors cannot sell or redeem their investments/Mutual Fund units.
+
+AUM (31/10/2025): ₹91,041.00 Cr.
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+
+Benchmark: NIFTY 500 Total Returns Index
+A benchmark is a standard market index used to compare a Fund's performance.
+
+Fund Managers:
+Ms. Roshi Jain - Senior Fund Manager - Equities
+OVERSEAS: Mr. Dhruv Muchhal - Equity Analyst and Fund Manager for Overseas Investments
+
+Top 10 Holdings As on 31 Oct 2025
+
+Exit Load:
+In respect of each purchase / switch-in of Units, an Exit Load of 1.00% is payable if Units are redeemed / switched out within 1 year from the date of allotme
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0049
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+Load of 1.00% is payable if Units are redeemed / switched out within 1 year from the date of allotment.
+No Exit Load is payable if Units are redeemed / switched out after 1 year from the date of allotment.
+
+Product Labelling: Benchmark Riskometer
+This product is suitable for investors who are seeking:
+- To generate long-term capital appreciation / income
+- Investment predominantly in equity & equity related instruments
+
+FAQs:
+Who should invest in HDFC Flexi Cap Fund? This product is suitable for investors who are seeking to generate long-term capital appreciation / income, investment predominantly in equity & equity related instruments.
+How to Invest in HDFC Flexi Cap?
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0050
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+, investment predominantly in equity & equity related instruments.
+How to Invest in HDFC Flexi Cap? Investors can apply for their transactions requests either offline or electronically using the relevant application / transaction request forms available on our website or at any of our Officials Points of Acceptance.
+How to Redeem HDFC Flexi Cap? Units of the scheme can be redeemed/switched out on any Business day at NAV based prices.
+Can I invest in SIP and a Lump Sum of the HDFC Flexi Cap Fund? Yes, SIP as well as Lump Sum investments are permitted with the minimum application amount being ₹100. Any additional purchase must have a minimum amount of ₹100.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_flexi_cap_fund_direct_0051
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+scheme: HDFC Flexi Cap Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+minimum application amount being ₹100. Any additional purchase must have a minimum amount of ₹100.
+
+Source: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+Retrieved from Wayback Machine: https://web.archive.org/web/20251130194037/https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0052
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+HDFC Balanced Advantage Fund Direct Growth - NAV, Portfolio and Performance | HDFC Mutual Funds
+
+HDFC Balanced Advantage Fund
+Hybrid
+DIRECT
+REGULAR
+
+An open ended Balanced Advantage Fund.
+
+This Fund aims to provide long term capital appreciation/income from a mix of equity and debt investments.
+
+Different asset classes exhibit different risk-return profile and relatively low correlation to each other as compared to investments within the same asset class. The fund manager will determine asset allocation between equity and debt depending on prevailing market and economic conditions.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0053
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+e asset allocation between equity and debt depending on prevailing market and economic conditions.
+
+The debt-equity mix at any point of time will be a function of interest rates, equity valuations, medium to long term outlook of the asset classes and risk management, etc.
+
+Returns since inception: 15.49%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+
+Total Expense Ratio (TER): 0.76%
+The Total Expense Ratio (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0054
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+utual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+
+Lock in: NA
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units.
+
+AUM (31/12/2025): ₹108,205.06 Cr.
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+
+Benchmark: NIFTY 50 Hybrid Composite Debt 50:50 Index
+A benchmark is a standard market index used to compare a Fund's performance.
+
+Fund Managers:
+Mr. Srinivasan Ramamurthy - Senior Fund Manager - Equities
+Mr. Gopal Agrawal - Senior Fund Manager - Equity
+Mr.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0055
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+an Ramamurthy - Senior Fund Manager - Equities
+Mr. Gopal Agrawal - Senior Fund Manager - Equity
+Mr. Anil Bamboli - Senior Fund Manager - Fixed Income
+Mr. Arun Agarwal - Senior Fund Manager
+Nandita Menezes - Fund Manager and Dealer - Equities
+OVERSEAS: Mr. Dhruv Muchhal - Equity Analyst and Fund Manager for Overseas Investments
+
+Top 10 Holdings As on 31 Dec 2025
+
+Exit Load:
+In respect of each purchase/switch-in of Units, 15% of the units ("the limit") may be redeemed without any exit load from the date of allotment.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0056
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+s, 15% of the units ("the limit") may be redeemed without any exit load from the date of allotment.
+Any redemption in excess of the limit shall be subject to the following exit load:
+- Exit load of 1.00% is payable if Units are redeemed/switched-out within 1 year from the date of allotment of units.
+- No Exit Load is payable if Units are redeemed/switched-out after 1 year from the date of allotment.
+- No Entry/Exit Load shall be levied on bonus units and units allotted on dividend reinvestment.
+
+Product Labelling: Benchmark Riskometer
+This product is suitable for investors who are seeking:
+- to generate long-term capital appreciation/income
+- investments in a mix of equity and debt instrumen
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0057
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+o generate long-term capital appreciation/income
+- investments in a mix of equity and debt instruments
+
+FAQs:
+Can I invest in SIP and Lump Sum of HDFC Balanced Advantage Fund? Yes, SIP as well as Lump Sum investments are permitted with the minimum application amount being ₹100. Any additional purchase must have a minimum amount of ₹100.
+How to Invest in HDFC Balanced Advantage Fund? Investors can apply for their transactions requests either offline or electronically using the relevant application / transaction request forms available on our website or at any of our Officials Points of Acceptance.
+How to Redeem HDFC Balanced Advantage Fund?
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_balanced_advantage_fund_direct_0058
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+scheme: HDFC Balanced Advantage Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+ebsite or at any of our Officials Points of Acceptance.
+How to Redeem HDFC Balanced Advantage Fund? Units of the scheme can be redeemed/switched out on any Business day at NAV based prices.
+
+Source: https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+Retrieved from Wayback Machine: https://web.archive.org/web/20260131101631/https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0059
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+
+HDFC ELSS - Tax Saver Fund
+Tax Saver
+DIRECT
+REGULAR
+
+About HDFC ELSS - Tax Saver Fund
+An Open-ended Equity Linked Savings Scheme with a statutory lock in of 3 years and tax benefit.
+
+This is a simple and performing scheme which is eligible for distribution by new cadre of distributors.
+
+The scheme offers the dual benefit of tax saving and wealth creation. It comes with a lock-in period of three years and provides individuals/HUFs a deduction from gross total income for investments in Equity-Linked Savings Scheme upto ₹1.5 lakh under section 80C of the Income Tax Act 1961.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0060
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+ments in Equity-Linked Savings Scheme upto ₹1.5 lakh under section 80C of the Income Tax Act 1961.
+
+The fund invests 80-100% of its portfolio in equity or equity related instruments. The equity strategy aims to provide long term capital appreciation from a reasonably diversified portfolio consisting of mid cap and large cap companies which:
+- are likely to achieve above average growth than the industry,
+- enjoy distinct competitive advantages,
+- have superior financial strengths.
+
+Returns since inception: 14.27%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 500
+Ideal for: Wealth Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0061
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+Creation 3 Years and above
+
+Entry Load: Currently, Mutual Funds in India do not levy entry loads.
+
+Total Expense Ratio (TER): 1.19%
+The Total Expense Ratio (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme's average Net Asset Value (NAV).
+
+Lock in: 3 years
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units. For example, Equity Linked Savings Schemes (ELSS) Funds have a 3-year lock-in.
+
+AUM (31/08/2026): ₹15,991.78 Cr.
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0062
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+UM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+
+Benchmark: NIFTY 500 Total Returns Index
+A benchmark is a standard market index used to compare a Fund's performance.
+
+Fund Managers:
+Amar Kalkundrikar - Fund Manager - Equities (Investments)
+OVERSEAS: Mr. Dhruv Muchhal - Equity Analyst and Fund Manager for Overseas Investments
+
+Portfolio Allocation & Top Holdings As on 31 Jul 2026
+
+Exit Load: NIL
+
+Product Labelling: Benchmark Riskometer
+Product Suitability: This product is suitable for investors who are seeking:
+- to generate long-term capital appreciation/income
+- investment predominantly of equity and equity related instruments
+
+FAQs:
+1.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0063
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+l appreciation/income
+- investment predominantly of equity and equity related instruments
+
+FAQs:
+1. How to Invest in HDFC ELSS Tax Saver? Investors can apply for their transactions requests either offline or electronically using the relevant application / transaction request forms available on our website or at any of our Officials Points of Acceptance.
+2. Can I invest in SIP and Lump Sum of the HDFC ELSS Tax Saver? Yes, SIP as well as Lump Sum investments are permitted with the minimum application amount being ₹500. Any additional purchase must have a minimum amount of ₹500. The SIP and Lumpsum are available in direct and regular plan with both Growth and IDCW option.
+3.
+--------------------------------------------------------------------------------
+
+chunk_id: https_www_hdfcfund_com_explore_mutual_funds_hdfc_elss_tax_saver_fund_direct_0064
+source_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+scheme: HDFC ELSS Tax Saver Fund
+doc_type: scheme_page
+section: General
+as_of_date: 01/01/2013
+text:
+. The SIP and Lumpsum are available in direct and regular plan with both Growth and IDCW option.
+3. How to Redeem HDFC ELSS Tax Saver? Units of the scheme can be redeemed/switched out on any Business day at NAV based prices.
+
+Source: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+Retrieved from Wayback Machine: https://web.archive.org/web/20260908145953/https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+--------------------------------------------------------------------------------
+
