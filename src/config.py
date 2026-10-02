@@ -16,7 +16,7 @@ def _clean(value: str | None) -> str:
 
 
 GROQ_API_KEY = _clean(os.getenv("GROQ_API_KEY"))
-GROQ_MODEL = _clean(os.getenv("GROQ_MODEL"))  # no default on purpose
+GROQ_MODEL = _clean(os.getenv("GROQ_MODEL")) or "openai/gpt-oss-20b"  # fallback so empty/missing env var still runs
 
 
 def require_groq() -> tuple[str, str]:
