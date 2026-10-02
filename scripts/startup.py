@@ -52,7 +52,20 @@ def main():
         sys.exit(1)
     print(f"Groq API: configured (model={GROQ_MODEL})")
 
-    # Step 4: Get port from environment
+    # Step 4: Pre-download embedding model (prevents health check timeout)
+    from src.config import EMBED_MODEL
+    print(f"Pre-downloading embedding model: {EMBED_MODEL}")
+    try:
+        from sentence_transformers import SentenceTransformer
+        model = SentenceTransformer(EMBED_MODEL)
+        print(f"Embedding model ready: {EMBED_MODEL}")
+    except Exception as e:
+        print(f"ERROR: Failed to load embedding model: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+    # Step 5: Get port from environment
     port = int(os.getenv("PORT", "8501"))
     print(f"Port: {port}")
 
