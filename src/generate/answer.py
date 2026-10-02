@@ -77,7 +77,7 @@ Answer (max 3 sentences, facts only):"""
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_prompt},
             ],
-            max_tokens=200,
+            max_tokens=1024,  # reasoning models need headroom; 200 often yields empty final answers
             temperature=0.1,
         )
         answer = response.choices[0].message.content.strip()
@@ -87,11 +87,13 @@ Answer (max 3 sentences, facts only):"""
             response = client.chat.completions.create(
                 model=GROQ_MODEL,
                 messages=[{"role": "user", "content": simple_prompt}],
-                max_tokens=200,
+                max_tokens=1024,
                 temperature=0.1,
             )
             answer = response.choices[0].message.content.strip()
-        return strip_urls(answer)
+        cleaned = strip_urls(answer)
+        # If the model only echoed a URL, keep the original text instead of returning empty
+        return cleaned if cleaned else answer
     except Exception as e:
         return f"Error generating answer: {str(e)[:200]}"
 
