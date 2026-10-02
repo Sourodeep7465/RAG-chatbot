@@ -56,8 +56,10 @@ def main():
     from src.config import EMBED_MODEL
     print(f"Pre-downloading embedding model: {EMBED_MODEL}")
     try:
-        from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer(EMBED_MODEL)
+        from fastembed import TextEmbedding
+        model = TextEmbedding(model_name=EMBED_MODEL)
+        # Trigger model download
+        list(model.embed(["test"]))
         print(f"Embedding model ready: {EMBED_MODEL}")
     except Exception as e:
         print(f"ERROR: Failed to load embedding model: {e}")

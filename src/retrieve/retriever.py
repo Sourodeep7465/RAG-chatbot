@@ -85,8 +85,8 @@ def rewrite_query(query: str, history: list[dict]) -> str:
 
 class Retriever:
     def __init__(self):
-        from sentence_transformers import SentenceTransformer
-        self._model = SentenceTransformer(EMBED_MODEL)
+        from fastembed import TextEmbedding
+        self._model = TextEmbedding(model_name=EMBED_MODEL)
         self.client = chromadb.PersistentClient(
             path=str(CHROMA_DIR),
             settings=Settings(anonymized_telemetry=False),
@@ -101,7 +101,7 @@ class Retriever:
     def retrieve(self, query: str, scheme: Optional[str] = None) -> list[dict]:
         """Retrieve top-k chunks for a query, optionally filtered by scheme."""
         # Embed query
-        query_embedding = self.model.encode([query], normalize_embeddings=True)[0]
+        query_embedding = list(self.model.embed([query]))[0]
 
         # Build where filter
         where_filter = None
