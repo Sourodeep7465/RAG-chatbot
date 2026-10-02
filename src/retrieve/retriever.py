@@ -1,11 +1,18 @@
-"""Query rewriting, scheme detection, and Chroma retrieval."""
+"""Query rewriting, scheme detection, and lightweight numpy retrieval.
+
+Uses data/corpus.npz (exported from ChromaDB) instead of a live ChromaDB
+server client so the Render free tier stays under the memory limit.
+"""
+import json
 import re
+from pathlib import Path
 from typing import Optional
 
-import chromadb
-from chromadb.config import Settings
+import numpy as np
 
-from src.config import CHROMA_DIR, EMBED_MODEL, CHROMA_COLLECTION, TOP_K, SIMILARITY_THRESHOLD
+from src.config import BASE_DIR, EMBED_MODEL, TOP_K, SIMILARITY_THRESHOLD
+
+CORPUS_PATH = BASE_DIR / "data" / "corpus.npz"
 
 # Scheme aliases for detection
 SCHEME_ALIASES = {
@@ -86,12 +93,13 @@ def rewrite_query(query: str, history: list[dict]) -> str:
 class Retriever:
     def __init__(self):
         from fastembed import TextEmbedding
+
         self._model = TextEmbedding(model_name=EMBED_MODEL)
-        self.client = chromadb.PersistentClient(
-            path=str(CHROMA_DIR),
-            settings=Settings(anonymized_telemetry=False),
-        )
-        self.collection = self.client.get_collection(CHROMA_COLLECTION)
+        data = np.load(CORPUS_PATH, allow_pickle=True)
+        self._embeddings = data["embeddings"].astype(np.float32)
+        self._ids = list(data["ids"])
+        self._documents = list(data["documents"])
+        self._metadatas = [json.loads(m) for m in data["metadatas"]]
 
     @property
     def model(self):
@@ -100,40 +108,34 @@ class Retriever:
 
     def retrieve(self, query: str, scheme: Optional[str] = None) -> list[dict]:
         """Retrieve top-k chunks for a query, optionally filtered by scheme."""
-        # Embed query
+        # Match the embedding path the corpus was built with (no query prefix).
         query_embedding = list(self.model.embed([query]))[0]
+        query_embedding = np.asarray(query_embedding, dtype=np.float32)
+        norm = np.linalg.norm(query_embedding)
+        if norm > 0:
+            query_embedding = query_embedding / norm
 
-        # Build where filter
-        where_filter = None
+        similarities = self._embeddings @ query_embedding  # cosine (both normalized)
+
+        candidates = range(len(self._ids))
         if scheme:
-            where_filter = {"scheme": scheme}
+            candidates = [i for i in candidates if self._metadatas[i].get("scheme") == scheme]
 
-        # Query Chroma
-        results = self.collection.query(
-            query_embeddings=[query_embedding.tolist()],
-            n_results=TOP_K,
-            where=where_filter,
-            include=["documents", "metadatas", "distances"],
-        )
+        top = sorted(candidates, key=lambda i: similarities[i], reverse=True)[:TOP_K]
 
         chunks = []
-        if results["ids"] and results["ids"][0]:
-            for i, chunk_id in enumerate(results["ids"][0]):
-                distance = results["distances"][0][i]
-                similarity = 1 - distance  # Chroma uses L2 distance by default, but we set cosine
-                metadata = results["metadatas"][0][i]
-                document = results["documents"][0][i]
-
-                chunks.append({
-                    "chunk_id": chunk_id,
-                    "text": document,
-                    "similarity": similarity,
-                    "source_url": metadata.get("source_url", ""),
-                    "scheme": metadata.get("scheme", ""),
-                    "doc_type": metadata.get("doc_type", ""),
-                    "section": metadata.get("section", ""),
-                    "as_of_date": metadata.get("as_of_date", ""),
-                })
+        for i in top:
+            metadata = self._metadatas[i]
+            chunks.append({
+                "chunk_id": self._ids[i],
+                "text": self._documents[i],
+                "similarity": float(similarities[i]),
+                "source_url": metadata.get("source_url", ""),
+                "scheme": metadata.get("scheme", ""),
+                "doc_type": metadata.get("doc_type", ""),
+                "section": metadata.get("section", ""),
+                "as_of_date": metadata.get("as_of_date", ""),
+            })
 
         return chunks
 

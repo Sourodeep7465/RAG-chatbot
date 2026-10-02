@@ -9,6 +9,7 @@ from pathlib import Path
 # Add project root to Python path
 project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root))
+BASE_DIR = project_root
 
 def main():
     print("=" * 60)
@@ -18,30 +19,22 @@ def main():
     # Step 1: Check Python environment
     print(f"Python: {sys.version}")
 
-    # Step 2: Check ChromaDB
-    from src.config import CHROMA_DIR, CHROMA_COLLECTION
-    print(f"ChromaDB path: {CHROMA_DIR}")
-    print(f"ChromaDB exists: {CHROMA_DIR.exists()}")
+    # Step 2: Check exported corpus (lightweight replacement for ChromaDB)
+    corpus = BASE_DIR / "data" / "corpus.npz"
+    print(f"Corpus path: {corpus}")
+    print(f"Corpus exists: {corpus.exists()}")
 
-    if not CHROMA_DIR.exists():
-        print("ERROR: ChromaDB directory not found!")
-        print("Make sure data/chroma/ is committed to the repo.")
+    if not corpus.exists():
+        print("ERROR: data/corpus.npz not found!")
+        print("Run: python scripts/export_corpus.py and commit data/corpus.npz")
         sys.exit(1)
 
     try:
-        import chromadb
-        from chromadb.config import Settings
-        client = chromadb.PersistentClient(
-            path=str(CHROMA_DIR),
-            settings=Settings(anonymized_telemetry=False),
-        )
-        collection = client.get_collection(CHROMA_COLLECTION)
-        count = collection.count()
-        print(f"ChromaDB OK: {count} chunks loaded")
+        import numpy as np
+        data = np.load(corpus, allow_pickle=True)
+        print(f"Corpus OK: {len(data['ids'])} chunks loaded")
     except Exception as e:
-        print(f"ERROR: ChromaDB failed to load: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"ERROR: corpus failed to load: {e}")
         sys.exit(1)
 
     # Step 3: Check Groq API key
