@@ -85,7 +85,8 @@ def rewrite_query(query: str, history: list[dict]) -> str:
 
 class Retriever:
     def __init__(self):
-        self._model = None
+        from sentence_transformers import SentenceTransformer
+        self._model = SentenceTransformer(EMBED_MODEL)
         self.client = chromadb.PersistentClient(
             path=str(CHROMA_DIR),
             settings=Settings(anonymized_telemetry=False),
@@ -94,10 +95,7 @@ class Retriever:
 
     @property
     def model(self):
-        """Lazy-load embedding model only when needed."""
-        if self._model is None:
-            from sentence_transformers import SentenceTransformer
-            self._model = SentenceTransformer(EMBED_MODEL)
+        """Return the pre-loaded embedding model."""
         return self._model
 
     def retrieve(self, query: str, scheme: Optional[str] = None) -> list[dict]:
